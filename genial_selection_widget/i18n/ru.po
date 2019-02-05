@@ -1,0 +1,89 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* genial_selection_widget
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-11 14:47+0000\n"
+"PO-Revision-Date: 2017-12-11 14:47+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: genial_selection_widget
+#. openerp-web
+#: code:addons/genial_selection_widget/static/src/js/genial_selection.js:142
+#: code:addons/genial_selection_widget/static/src/js/genial_selection.js:623
+#, python-format
+msgid "Create \"<strong>%s</strong>\""
+msgstr "Создать \"<strong>%s</strong>\""
+
+#. module: genial_selection_widget
+#. openerp-web
+#: code:addons/genial_selection_widget/static/src/js/genial_selection.js:153
+#: code:addons/genial_selection_widget/static/src/js/genial_selection.js:634
+#, python-format
+msgid "Create and edit ..."
+msgstr "Cоздать и изменить ..."
+
+#. module: genial_selection_widget
+#. openerp-web
+#: code:addons/genial_selection_widget/static/src/js/genial_selection.js:483
+#: code:addons/genial_selection_widget/static/src/js/genial_selection.js:961
+#, python-format
+msgid "Create: "
+msgstr "Создать: "
+
+#. module: genial_selection_widget
+#. openerp-web
+#: code:addons/genial_selection_widget/static/src/js/genial_selection.js:162
+#: code:addons/genial_selection_widget/static/src/js/genial_selection.js:643
+#, python-format
+msgid "No results ..."
+msgstr "Нет результатов ..."
+
+#. module: genial_selection_widget
+#. openerp-web
+#: code:addons/genial_selection_widget/static/src/js/genial_selection.js:373
+#: code:addons/genial_selection_widget/static/src/js/genial_selection.js:851
+#, python-format
+msgid "No value found for the field  for value "
+msgstr "Не найдено значений для поля  для значения "
+
+#. module: genial_selection_widget
+#. openerp-web
+#: code:addons/genial_selection_widget/static/src/js/genial_selection.js:192
+#: code:addons/genial_selection_widget/static/src/js/genial_selection.js:673
+#, python-format
+msgid "Open: "
+msgstr "Открыть: "
+
+#. module: genial_selection_widget
+#. openerp-web
+#: code:addons/genial_selection_widget/static/src/js/genial_selection.js:373
+#: code:addons/genial_selection_widget/static/src/js/genial_selection.js:851
+#, python-format
+msgid "Render"
+msgstr "Render"
+
+#. module: genial_selection_widget
+#. openerp-web
+#: code:addons/genial_selection_widget/static/src/js/genial_selection.js:128
+#: code:addons/genial_selection_widget/static/src/js/genial_selection.js:609
+#, python-format
+msgid "Search more ..."
+msgstr "Искать ещё ..."
+
+#. module: genial_selection_widget
+#. openerp-web
+#: code:addons/genial_selection_widget/static/src/js/genial_selection.js:483
+#: code:addons/genial_selection_widget/static/src/js/genial_selection.js:961
+#, python-format
+msgid "Search: "
+msgstr "Поиск: "
+

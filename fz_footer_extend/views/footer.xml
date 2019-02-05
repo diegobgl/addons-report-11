@@ -1,0 +1,93 @@
+<odoo>
+<template id="assets_frontend" inherit_id="website.assets_frontend" name="Footer Extend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" href="/fz_footer_extend/static/src/css/website_footer.css" />
+        </xpath>
+    </template>
+<template id="footer_extend" inherit_id="website.footer_default" customize_show="True" name="Fazzilat Footer">
+<xpath expr="//div[@id='footer']" position="replace" >
+    <div class="footer-section" t-if='not no_footer'>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-lg-4 col-lg-offset-1 footer-one">
+                       <div class="foot-logo">
+                          <img src="/fz_footer_extend/static/src/img/footer_logo.png"/>
+                       </div>
+                       <p>Providing Life Changing Experiences Through Education. Class That Fit Your Busy Life. Closer to Home
+                       </p>
+                       <div class="social-icons"> 
+                       
+                            <a t-att-href="website.social_facebook" t-if="website.social_facebook"><i id="social-fb" class="fa fa-facebook-square fa-3x social"/></a>
+                            <a t-att-href="website.social_twitter" t-if="website.social_twitter"><i id="social-tw" class="fa fa-twitter-square fa-3x social"/></a>
+                            <a t-att-href="website.social_linkedin" t-if="website.social_linkedin"><i class="fa fa-linkedin-square fa-3x social"/></a>
+                            <a t-att-href="website.social_youtube" t-if="website.social_youtube"><i class="fa fa-youtube-play-square fa-3x social"/></a>
+                            <a t-att-href="website.social_googleplus" t-if="website.social_googleplus" rel="publisher"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"/></a>
+                            <a t-att-href="website.social_github" t-if="website.social_github"><i class="fa fa-github-square fa-3x social"/></a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-2  col-lg-2 footer-two" id="info">
+                       <h5>Quick Links</h5>
+                       <ul>
+                          <li><a href="#"> About Us</a> </li>
+                          <li><a href="#"> Our News</a> </li>
+                          <li><a href="#"> Our Services</a> </li>
+                          <li><a href="#"> Contact Us</a> </li>
+                       </ul>
+                    </div>
+                    
+                    <div class="col-md-2 col-lg-2 footer-three">
+                       <h5>Services</h5>
+                       <ul>
+                          <li><a href="#"> About Us</a> </li>
+                          <li><a href="#"> Our News</a> </li>
+                          <li><a href="#"> Our Services</a> </li>
+                          <li><a href="#"> Contact Us</a> </li>
+                       </ul>
+                    </div>
+                    
+                    <div class="col-md-4 col-lg-2 footer-four">
+                        <h5>Contact Us</h5>
+                        <ul class="list-unstyled">
+                            <li t-ignore="true"><i class="fa fa-phone"></i> <span t-field="res_company.phone"></span></li>
+                            <li t-ignore="true"><i class="fa fa-envelope"></i>  <span t-field="res_company.email"></span></li>
+                        </ul>
+                        <a href="#"><img src="/fz_footer_extend/static/src/img/footer-img-1.png"/> </a>
+                    </div>
+
+                </div>
+            </div>   
+        </div>
+    </div>
+</xpath>
+</template>
+
+<template id="website.layout_footer_copyright" inherit_id="website.layout" name="Footer Copyright">
+    <xpath expr="//footer" position="inside">
+            <div class="pull-right" t-ignore="true" t-if="not editable">
+                Create a <a target="_blank" href="http://www.odoo.com/page/website-builder">free website</a> with
+                <a target="_blank" class="label label-danger" href="http://www.odoo.com/page/website-builder">Odoo</a>
+            </div>
+            <div class="footer-bottom">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-6 ">
+                        <div class="copyright-text">
+                           <p>CopyRight © 2018 All Rights Reserved</p>
+                        </div>
+                     </div>
+                     <!-- End Col -->
+                     <div class="col-sm-6  ">
+                        <div class="copyright-text pull-right">
+                           <p> <a href="#">Home</a> | <a href="#">Privacy</a> |<a href="#">Terms &amp; Conditions</a> | <a href="#">Refund Policy</a> </p>
+                        </div>
+                     </div>
+                     <!-- End Col -->
+                  </div>
+               </div>
+            </div>          
+
+    </xpath>
+</template>
+</odoo>
